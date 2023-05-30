@@ -1,0 +1,207 @@
+@media (min-width:525px) and (max-width:992px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: sans-serif;
+        font-size: 15px;
+    }
+    .main{
+        display: flex;
+        width: 100%;
+        position: relative;
+        z-index: 10;
+    }
+    #i123
+    {
+        position:absolute;
+        z-index: 0;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: url(photo/dream-pulse-header.jpg);
+        background-size:cover;
+    
+    }
+    .left-side{
+        background-color: #000;
+        opacity: 0.6;
+        width: 25%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        /* justify-content: center; */
+        text-align: center;
+        flex-flow: column;
+        padding: 10px 20px;
+        color: #fff;
+    }
+    .left-side .logo{
+        text-transform: uppercase;
+        color: #fff;
+        font-size: 25px;
+        font-weight: bold;
+        text-decoration: none;
+        margin-top: 50px;
+        border: 1px solid #fff;
+        padding: 20px 8px;
+    }
+    .left-side .navbar{
+        margin-top: 50px;
+        margin-bottom: 80px;
+    }
+    .left-side .navbar a{
+        
+        display: block;
+        font-size: 18px;
+        color: #fff;
+        margin: 2rem 0;
+        text-decoration: none;
+    }
+    .left-side .navbar a:hover{
+        letter-spacing: 3px;
+    }
+    
+    .left-side .follow a{
+        font-size: 25px;
+        color: #fff;
+        margin: 0 .7rem;
+        text-decoration: none;
+        margin-bottom: 30px;
+    }
+    .right-side{
+        /* padding: 50px; */
+        width: 75%;
+        height: 550px;
+        position: relative;
+    }
+    .right-side .box{
+        position: absolute;
+        left: 5%;
+        bottom:-5%;
+        right: 5%;
+        background-color: #fff;
+        opacity: 0.7;
+        width: 90%;
+        padding: 40px;
+    }
+    .right-side .box p{
+        text-align: justify;
+    }
+    
+    .content{
+        /* display: flex; */
+        width: 100%;
+        position: relative;
+        z-index: 10;
+    }
+    .one{
+        /* width: 25%;
+        background-color: #000;
+        opacity: 0.6; */
+        display: none;
+    }
+    .two{
+        background-color: #fff;
+        width: 100%;
+    }
+    .about{
+        display: flex;
+    }
+    .sec-1, .sec-2{
+        padding: 50px;
+        text-align: justify;
+    }
+    .sec-1 i, .sec-2 i{
+        font-size: 100px;
+        font-weight: bolder;
+        color: rgb(12, 97, 72);
+        margin-bottom: 30px;
+    }
+    .box h3, .sec-1 h2, .sec-2 h2, .desc h2, .talk h2, .work h2{
+        font-size: 30px;
+        color: rgb(12, 97, 72);
+        margin-bottom: 30px;
+        font-weight: 300;
+        text-shadow: 1px 1px 3px rgba(12, 97, 71, 0.633);
+    }
+    .sec-1 p, .sec-2 p, .desc p, .talk p{
+        color: #000;
+        margin-bottom: 30px;
+        text-align: justify;
+        line-height: 20px;
+    }
+    .work{
+        padding: 0px 50px 50px;
+    }
+    .cell{
+        width: 20%;
+        height: auto;
+        margin: 0 15px;
+    }
+    .cell img{
+        width: 100%;
+        height: auto;
+    }
+    .clients{
+        padding: 50px;
+        width: 100%;
+    }
+    .p-1, .p-2{
+        display: flex;
+        width: 100%;
+        margin-bottom: 25px;
+        justify-content: space-evenly;
+    }
+    .p-1 img, .p-2 img{
+        width: 20%;
+        border: 1px solid gray;
+        padding: 1%;
+        border-radius: 5px;
+    }
+    .footer{
+        display: flex;
+        margin: 80px 0px 50px;
+        padding: 50px;
+    }
+    
+    .talk{
+        border: 1px solid gray;
+        /* padding: 0px; */
+        width: 45%;
+        height: auto;
+        padding: 20px;
+
+    }
+    
+    .contact{
+        text-align: center;
+        padding: 80px 50px 20px;
+        width: 55%;
+    }
+    .contact input, textarea{
+        font-size: 15px;
+        margin-bottom: 40px;
+        padding: 10px;
+        width: 100%;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        
+
+    }
+    .contact button{
+        font-size: 20px;
+        background-color: rgb(12, 97, 72);
+        color: #fff;
+        border: none;
+        padding: 10px 25px;
+        border-radius: 20px;
+    }
+    .contact button:hover{
+        color: rgb(12, 97, 72);
+        background-color: #fff;
+        border: 1px solid rgb(12, 97, 72);
+    }
+}
